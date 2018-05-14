@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SciEngine", "SciEngine\SciEngine.vcxproj", "{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SciGame", "SciGame\SciGame.vcxproj", "{D846BDF4-FFA5-4763-8DFC-37121E0B6180}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C} = {FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Debug|x64.ActiveCfg = Debug|x64
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Debug|x64.Build.0 = Debug|x64
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Debug|x86.Build.0 = Debug|Win32
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Release|x64.ActiveCfg = Release|x64
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Release|x64.Build.0 = Release|x64
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Release|x86.ActiveCfg = Release|Win32
+		{FBEBE6C8-461A-47DA-A1FC-0BBA7E2DEE6C}.Release|x86.Build.0 = Release|Win32
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Debug|x64.ActiveCfg = Debug|x64
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Debug|x64.Build.0 = Debug|x64
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Debug|x86.ActiveCfg = Debug|Win32
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Debug|x86.Build.0 = Debug|Win32
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Release|x64.ActiveCfg = Release|x64
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Release|x64.Build.0 = Release|x64
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Release|x86.ActiveCfg = Release|Win32
+		{D846BDF4-FFA5-4763-8DFC-37121E0B6180}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47A5DE53-FE41-41AA-B88C-E58609681D59}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

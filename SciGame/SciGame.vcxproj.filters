@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MainOGL.cpp" />
+    <ClCompile Include="Balls\BallsGame.cpp">
+      <Filter>Balls</Filter>
+    </ClCompile>
+    <ClCompile Include="Balls\Ball.cpp">
+      <Filter>Balls</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGame.cpp" />
+    <ClCompile Include="Archer\ArcherGame.cpp">
+      <Filter>Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer\Archer.cpp">
+      <Filter>Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer\Environment.cpp">
+      <Filter>Archer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Balls\BallsGame.h">
+      <Filter>Balls</Filter>
+    </ClInclude>
+    <ClInclude Include="Balls\Ball.h">
+      <Filter>Balls</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveGame.h" />
+    <ClInclude Include="TestGame.h" />
+    <ClInclude Include="Archer\ArcherGame.h">
+      <Filter>Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer\OnnaBushi.h">
+      <Filter>Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer\Archer.h">
+      <Filter>Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer\Environment.h">
+      <Filter>Archer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Balls">
+      <UniqueIdentifier>{71d70229-8ee7-4506-915e-fcaee599343e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archer">
+      <UniqueIdentifier>{f1673b2d-91d3-48ad-9fc8-af4001f78cd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

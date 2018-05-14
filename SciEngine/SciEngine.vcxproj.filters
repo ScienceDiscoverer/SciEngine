@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SciMath">
+      <UniqueIdentifier>{8c986fc1-3972-453a-a645-34e9fd79de4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{d5540865-b562-4030-b1e4-eacb70714d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SciRender">
+      <UniqueIdentifier>{73fcd6bc-1dfc-4c4e-823f-8e437d44ce8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SciCollision">
+      <UniqueIdentifier>{2a2736d9-447b-4b44-b028-ff726086bc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SciPhysics">
+      <UniqueIdentifier>{60a1d068-ca31-40b7-970c-c5dc1c19ea38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SciMath\SciMath.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciVector2.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciVector3.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciMatrix2x2.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciVector4.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciMatrix3x3.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciMatrix4x4.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciLine2.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SciMath\SciPixel.h">
+      <Filter>SciMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\SciResourceNan.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SciInputModule.h" />
+    <ClInclude Include="Utilities\SciTimer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SciGame.h" />
+    <ClInclude Include="Utilities\SciBoundingObjects2D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\SciArray.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SciRenderModule.h">
+      <Filter>SciRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SciRenderer2D.h">
+      <Filter>SciRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SciCollisionModule.h">
+      <Filter>SciCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SciCollision2D.h">
+      <Filter>SciCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SciPhysicsModule.h">
+      <Filter>SciPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="SciPhysics2D.h">
+      <Filter>SciPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="SciEntities2D.h" />
+    <ClInclude Include="Utilities\SciHierarchy.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SciControls.h" />
+    <ClInclude Include="Utilities\SciDebug.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SciMath\SciVector2.cpp">
+      <Filter>SciMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SciMath\SciVector3.cpp">
+      <Filter>SciMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SciMath\SciVector4.cpp">
+      <Filter>SciMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SciMath\SciMatrix2x2.cpp">
+      <Filter>SciMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SciMath\SciMatrix3x3.cpp">
+      <Filter>SciMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SciMath\SciMatrix4x4.cpp">
+      <Filter>SciMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SciMath\SciPixel.cpp">
+      <Filter>SciMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\SciResourceNan.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SciInputModule.cpp" />
+    <ClCompile Include="SciGame.cpp" />
+    <ClCompile Include="Utilities\SciTimer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\SciBoundingObjects2D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SciRenderer2D.cpp">
+      <Filter>SciRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SciCollision2D.cpp">
+      <Filter>SciCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SciPhysics2D.cpp">
+      <Filter>SciPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="SciEntities2D.cpp" />
+    <ClCompile Include="Utilities\SciHierarchy.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SciControls.cpp" />
+  </ItemGroup>
+</Project>
